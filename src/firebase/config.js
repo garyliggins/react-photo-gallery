@@ -1,7 +1,8 @@
   
-  import * as firebase from 'firebase/app';
+  import firebase from 'firebase/app';
   import 'firebase/storage'; //storage for images
   import 'firebase/firestore'; //database
+
 
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -19,4 +20,5 @@
   const projectStorage = firebase.storage();
   const projectFirestore = firebase.firestore();
 
-  export {projectStorage, projectFirestore};
+  export  {projectStorage , projectFirestore};
+  
